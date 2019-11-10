@@ -1,0 +1,31 @@
+#welcome-screen-full {
+  width: 100vw;
+  height: 100vh;
+  background-color: dimgray;
+  text-align: center;
+  z-index: 2;
+}
+
+#welcome-text {
+  text-align: center;
+  transform: translateY(40vh);
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+}
+
+#continue-button {
+  transform: translateY(45vh);
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(150, 150, 150);
+  border: 0px;
+  font-size: 25px;
+  border-radius: 7px;
+}
+
+#expand-overlay {
+  transform: translate3d(50vw, 50vh, 0px);
+  background-color: white;
+  text-align: center;
+  z-index: 3;
+}

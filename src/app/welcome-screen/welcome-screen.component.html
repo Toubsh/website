@@ -1,0 +1,11 @@
+<div id="welcome-screen-full" *ngIf="!clickedContinue">
+  <div id="welcome-text">
+      Welcome!
+  </div>
+  <button (click)="onClick()" id="continue-button">
+      Continue to website
+  </button>
+</div>
+
+<div id="expand-overlay" *ngIf="clickedContinue">
+</div>
