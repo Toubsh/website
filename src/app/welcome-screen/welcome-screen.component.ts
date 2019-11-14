@@ -12,6 +12,7 @@ export class WelcomeScreenComponent implements OnInit, AfterViewInit {
   constructor() { }
   
   upDownWobble;
+  overlayAnim;
   clickedContinue: boolean = false;
 
   ngOnInit() {
@@ -25,16 +26,33 @@ export class WelcomeScreenComponent implements OnInit, AfterViewInit {
       direction: 'alternate',
       loop: true
     });
+    this.overlayAnim = anime({
+      targets: '#expand-overlay',
+      width: {
+        value: '200%',
+        duration: '4000',
+      },
+      height: {
+        value: '200%',
+        duration: '4000',
+      },
+      translateX: ['-200px', '-100px'],
+      translateY: '-200px',
+      rotate: {
+        value: '360',
+        duration: '100',
+      },
+      'background-color': {
+        value: ['rgb(255,40,255)', 'rgb(60,100,180)'],
+        duration: '6000',
+      },
+      autoplay: false
+    });
   }
 
   onClick() {
-    this.clickedContinue = true;
+    this.overlayAnim.play();
     console.log(this.clickedContinue);
-    anime({
-      targets: '#welcome-text',
-      "border-radius": '50%',
-      size: ['0', '100%']
-    });
   }
 
 }

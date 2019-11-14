@@ -4,6 +4,7 @@
   background-color: dimgray;
   text-align: center;
   z-index: 2;
+  overflow: hidden;
 }
 
 #welcome-text {
@@ -24,8 +25,7 @@
 }
 
 #expand-overlay {
-  transform: translate3d(50vw, 50vh, 0px);
-  background-color: white;
-  text-align: center;
   z-index: 3;
+  width: 200px;
+  height: 200px;
 }
