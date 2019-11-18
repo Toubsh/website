@@ -9,6 +9,8 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  tabs: String[] = ["Home", "About me", "My 'creations'", "Contact"];
+
   ngOnInit() {
   }
 
