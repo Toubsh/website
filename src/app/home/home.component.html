@@ -2,7 +2,7 @@
   <div>
     Hello Home!
   </div>
-  <div *ngFor="let categories of tabs">
-    <app-tab></app-tab>
+  <div *ngFor="let tabName of tabs">
+    <app-tab [tabName]="tabName"></app-tab>
   </div>
 </body>
