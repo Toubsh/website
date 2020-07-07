@@ -10,7 +10,7 @@ import anime from 'animejs';
 export class WelcomeScreenComponent implements OnInit, AfterViewInit {
 
   constructor() { }
-  
+
   upDownWobble;
   overlayAnim;
   clickedContinue: boolean = false;
@@ -21,7 +21,7 @@ export class WelcomeScreenComponent implements OnInit, AfterViewInit {
   ngOnInit() {
   }
 
-  ngAfterViewInit() { 
+  ngAfterViewInit() {
     this.upDownWobble = anime({
       targets: '#welcome-text',
       translateY: ['35vh', '40vh'],
@@ -60,7 +60,7 @@ export class WelcomeScreenComponent implements OnInit, AfterViewInit {
 
   onClick() {
     this.overlayAnim.play();
-    let _this = this;
+    const _this = this;
     setTimeout(function() { _this.prepareUnloading(this.showWelcome) }, 2000);
   }
 

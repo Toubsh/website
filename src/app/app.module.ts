@@ -7,6 +7,8 @@ import { WelcomeScreenComponent } from './welcome-screen/welcome-screen.componen
 import * as anime from 'animejs';
 import { HomeComponent } from './home/home.component';
 import { TabComponent } from './home/tab/tab.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { AppRoutingModule } from './app-routing/app-routing.module';
 
 @NgModule({
   declarations: [
@@ -14,10 +16,12 @@ import { TabComponent } from './home/tab/tab.component';
     WelcomeScreenComponent,
     HomeComponent,
     TabComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
     FlexLayoutModule,
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
