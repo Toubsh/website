@@ -1,5 +1,15 @@
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: rgb(60,100,180);
+#welcome-text {
+  text-align: center;
+  transform: translateY(40%);
+  font-size: 45px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  opacity: 0;
+  z-index: 2;
+  color: rgb(220, 220, 220);
+  margin: auto;
+}
+
+#tabs {
+  z-index: 1;
 }

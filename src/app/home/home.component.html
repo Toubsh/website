@@ -1,8 +1,9 @@
-<body>
-  <div>
-    Hello Home!
-  </div>
-  <div *ngFor="let tabName of tabs">
-    <app-tab [tabName]="tabName"></app-tab>
-  </div>
-</body>
+<div id="welcome-text">
+  Welcome!
+</div>
+<div id="tabs">
+  <app-tab [tab]='tabs[0]'></app-tab>
+  <app-tab [tab]='tabs[1]'></app-tab>
+  <app-tab [tab]='tabs[2]'></app-tab>
+  <app-tab [tab]='tabs[3]'></app-tab>
+</div>
