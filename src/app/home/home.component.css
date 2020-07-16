@@ -1,7 +1,8 @@
 #welcome-text {
   text-align: center;
-  transform: translateY(40%);
+  transform: translateY(35vh);
   font-size: 45px;
+  height: 0px;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   opacity: 0;
@@ -12,4 +13,56 @@
 
 #tabs {
   z-index: 1;
+}
+
+#home-anim-container {
+  align-items: stretch;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  z-index: 100;
+  height: 100%;
+  width: 100%;
+}
+
+.anim-div-1 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
+}
+
+.anim-div-2 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
+}
+
+.anim-div-3 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
+}
+
+.anim-div-4 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
+}
+
+.anim-div-5 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
+}
+
+.anim-div-6 {
+  flex-grow: 2;
+  transform: translateX(-3000px);
+  background-color: black;
+  align-self: stretch;
 }

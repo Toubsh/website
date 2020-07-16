@@ -1,5 +1,13 @@
-<div id="welcome-text">
-  Welcome!
+<div *ngIf="showWelcomeAnim" id="home-anim-container">
+  <div id="welcome-text">
+    Welcome!
+  </div>
+  <div class="anim-div-1"></div>
+  <div class="anim-div-2"></div>
+  <div class="anim-div-3"></div>
+  <div class="anim-div-4"></div>
+  <div class="anim-div-5"></div>
+  <div class="anim-div-6"></div>
 </div>
 <div id="tabs">
   <app-tab [tab]='tabs[0]'></app-tab>
