@@ -1,4 +1,4 @@
-<div *ngIf="showWelcomeAnim" id="home-anim-container">
+<div id="home-anim-container">
   <div id="welcome-text">
     Welcome!
   </div>
@@ -9,9 +9,6 @@
   <div class="anim-div-5"></div>
   <div class="anim-div-6"></div>
 </div>
-<div id="tabs">
-  <app-tab [tab]='tabs[0]'></app-tab>
-  <app-tab [tab]='tabs[1]'></app-tab>
-  <app-tab [tab]='tabs[2]'></app-tab>
-  <app-tab [tab]='tabs[3]'></app-tab>
+<div>
+  <app-tab [welcomeAnimFinished]='runningWelcomeAnim'></app-tab>
 </div>

@@ -6,13 +6,9 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-weight: bold;
   opacity: 0;
-  z-index: 2;
+  z-index: 10;
   color: rgb(220, 220, 220);
   margin: auto;
-}
-
-#tabs {
-  z-index: 1;
 }
 
 #home-anim-container {
