@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { TabComponent } from './home/tab/tab.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
+import { DisplayedTextComponent } from './home/displayed-text/displayed-text.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     TabComponent,
+    DisplayedTextComponent,
   ],
   imports: [
     BrowserModule,

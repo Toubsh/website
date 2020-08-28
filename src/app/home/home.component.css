@@ -62,3 +62,8 @@
   background-color: black;
   align-self: stretch;
 }
+
+#displayed-text {
+  flex-direction: row;
+  height: 100vh;
+}

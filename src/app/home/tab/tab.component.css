@@ -9,6 +9,7 @@
 }
 
 .tabs {
+  display: flex;
   z-index: 9;
   transform: translateX(-120px);
 }
