@@ -20,7 +20,10 @@ import { DisplayedTextComponent } from './home/displayed-text/displayed-text.com
     FlexLayoutModule,
     AppRoutingModule,
   ],
-  providers: [],
+  providers: [
+    TabComponent,
+    DisplayedTextComponent,
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
