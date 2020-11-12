@@ -13,6 +13,8 @@ export class HomeComponent implements OnInit {
 
   constructor() { }
 
+  // This is a comment for the Git tutorial
+
   ngOnInit() {
   }
 
